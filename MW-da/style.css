@@ -1,0 +1,210 @@
+body {
+  font-family: Roboto, Trebuchet MS, Helvetica, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #202020;
+  color: #fff;
+  letter-spacing: 0.5px;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+.button_1 {
+  align-items: center;
+  height: 58px;
+  background: #202020;
+  color: #fff;
+  border: solid;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  align-items: center;
+}
+.button_2 {
+  height: 58px;
+  background: #202020;
+  color: #fff;
+  border: solid;
+  padding-left: 20px;
+  padding-right: 20px;
+  float: center;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  align-items: center;
+}
+.button_3 {
+  height: 58px;
+  background: #202020;
+  color: #fff;
+  border: solid;
+  padding-left: 20px;
+  padding-right: 20px;
+  float: center;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  align-items: center;
+}
+
+header {
+  background-color: #202020;
+  padding-top: 00px;
+  border-bottom: rgb(54, 54, 54) 1px solid;
+}
+.container h1 {
+  text-align: center;
+}
+header a {
+  color: #ffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+header li {
+  float: left;
+  display: inline;
+  padding: 0 110px 0 110px;
+}
+
+header #brand {
+  float: center;
+}
+header #brand h1 {
+  margin: -auto;
+  margin-bottom: 30px;
+}
+header .highlight,
+header .current a {
+  color: #ff0000;
+  font-weight: bold;
+}
+header a:hover {
+  color: #ff0000;
+  font-weight: bold;
+}
+
+/*show case*/
+#showcase {
+  min-height: 800px;
+  background: url("./New-Loki-Clip.jpg") no-repeat 0;
+  text-align: center;
+  color: #fff;
+  margin-left: 60px;
+}
+#showcase h1 {
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+#newslatter {
+  padding: 15;
+  color: #fff;
+  background: #55514b;
+}
+#newlatter h1 {
+  float: left;
+}
+#newsletter form {
+  float: right;
+  margin-top: 15px;
+}
+/* #newsletter input button {
+  text-align: center;
+  font-size: 50px;
+  padding: 54px;
+  height: 250px;
+  width: 250px;
+} */
+
+#newsletter submit {
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+
+/*box aria*/
+#boxes {
+  margin-top: 20px;
+}
+#boxes .box {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+}
+#boxes .box img {
+  width: 300px;
+}
+
+
+/* main-col */
+article#main-col{
+  flex: auto;
+  width: 90%;
+  padding: 50px;
+  text-align:left;
+}
+aside#sidebar{
+  flex: auto;
+  width: 90%;
+  padding: 50px;
+  text-align:left;
+  margin-top: 10px;
+
+}
+
+
+
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: #fff;
+  background-color: #55514b;
+  text-align: center;
+}
+/* .footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: center;
+}
+
+.footer-content h3{
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+} */
+
+#newslatter input {
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+  align-items: center;
+}
+
+
+
+/* slide bar */
+
+#sidebar h3 {
+  color: red;
+}
+.container h3 {
+  color: red;
+}
+
+
+
+
+
+
+
+
+
+
